@@ -3,8 +3,8 @@ const app = express();
 const cors = require('cors');
 const path = require('path');
 
-const reactFolder = path.resolve('/front/build');
-const reactApp = path.resolve('/front/build/index.html');
+const reactFolder = path.resolve('./front/build');
+const reactApp = path.resolve('./front/build/index.html');
 
 app.use(cors());
 app.use(express.static(reactFolder));
