@@ -15,4 +15,4 @@ app.get('/api', (req, res) => {
   res.json({ data });
 });
 
-app.listen(2020);
+app.listen(process.env.PORT || 2020);

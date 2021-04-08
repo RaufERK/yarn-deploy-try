@@ -5,6 +5,6 @@
     "nodemon": "^2.0.7"
   },
   "scripts": {
-    "build":"cd front && yarn build"
+    "build":"cd front && yarn && yarn build"
   }
 }
